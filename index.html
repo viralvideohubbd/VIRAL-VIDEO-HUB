@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <script src='//libtl.com/sdk.js' data-zone='12063217' data-sdk='show_12063217'></script>
+  <script src='https://libtl.com/sdk.js' data-zone='12063217' data-sdk='show_12063217'></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VIRAL VIDEO HUB LINK</title>
+<title>VIRAL VIDEO HUB</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -705,7 +705,7 @@ body.intro-lock{overflow:hidden}
 }
 
 
-/* Final layout polish based on the supplied VIRAL VIDEO LINK reference */
+/* Final layout polish based on the supplied VIRAL VIDEO HUB reference */
 .video-details-page .details-content{width:100%;max-width:370px;margin:0 auto;padding-left:14px;padding-right:14px}
 .video-details-page .details-meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:10px 0 18px}
 .video-details-page .details-meta button{min-width:0;min-height:72px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-weight:900}
@@ -999,8 +999,8 @@ html,body{background:var(--vvh-ui-page-bg,#030304)!important;color:var(--vvh-ui-
 </style>
 <meta property="og:title" content="Viral Video Hub">
 <meta property="og:description" content="Open Viral Video Hub">
-<meta property="og:image" content="https://bd01327115106-afk.github.io/VIRAL-VIDEO-HUB/Viral%20Link%20Reaction%20Thumbnail.png">
-<meta property="og:url" content="https://bd01327115106-afk.github.io/VIRAL-VIDEO-HUB/">
+<meta property="og:image" content="https://viralvideohubbd.github.io/VIRAL-VIDEO-HUB/Viral%20Link%20Reaction%20Thumbnail.png">
+<meta property="og:url" content="https://viralvideohubbd.github.io/VIRAL-VIDEO-HUB/">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -1095,7 +1095,7 @@ html,body{background:var(--vvh-ui-page-bg,#030304)!important;color:var(--vvh-ui-
   <section class="vvh-shared-card" id="vvhSharedCard">
     <div class="vvh-shared-label">SHARED WITH YOU<button class="vvh-shared-close" type="button" aria-label="বন্ধ করুন" onclick="showHome()">×</button></div>
     <div class="vvh-shared-cover" id="vvhSharedCover">
-      <img id="vvhSharedImage" alt="Shared video thumbnail" src="https://bd01327115106-afk.github.io/VIRAL-VIDEO-HUB/Viral%20Link%20Reaction%20Thumbnail.png">
+      <img id="vvhSharedImage" alt="Shared video thumbnail" src="https://viralvideohubbd.github.io/VIRAL-VIDEO-HUB/Viral%20Link%20Reaction%20Thumbnail.png">
       <span class="vvh-shared-play">▶</span>
     </div>
     <div class="vvh-shared-info">
@@ -1210,7 +1210,7 @@ html,body{background:var(--vvh-ui-page-bg,#030304)!important;color:var(--vvh-ui-
   <p class="purchase-demo-note">ডেমো প্রিভিউ: এখানে প্যাকেজ বেছে নেওয়া ও হিসাব দেখা যাবে। কোনো বাস্তব পেমেন্ট বা পয়েন্ট যোগ করা হবে না।</p>
 </main>
 
-<div class="footer">🔥 VIRAL VIDEO LINK<br>নতুন ভিডিও নিয়মিত যুক্ত হবে...</div>
+<div class="footer">🔥 VIRAL VIDEO HUB<br>নতুন ভিডিও নিয়মিত যুক্ত হবে...</div>
 <nav class="bottom"><button id="homeTab" class="active" onclick="showHome()">🏠<br><span>হোম</span></button><button id="profileTab" onclick="showProfile()">👤<br><span>প্রোফাইল</span></button></nav>
 </div>
 
@@ -1275,7 +1275,7 @@ function closeAuth(e){if(!e || e.target.id==="authModal")document.getElementById
 async function loginWithGoogle(){
   const msg=document.getElementById("authMessage");
   if(msg) msg.textContent="⏳ Google Login হচ্ছে...";
-  const redirectTo = "https://bd01327115106-afk.github.io/VIRAL-VIDEO-HUB/";
+  const redirectTo = "https://viralvideohubbd.github.io/VIRAL-VIDEO-HUB/";
   try{
     const {error}=await supabaseClient.auth.signInWithOAuth({
       provider:"google",
@@ -1317,7 +1317,7 @@ async function shareReferral() {
     referralCode = parsed.searchParams.get("ref") || (parsed.searchParams.get("startapp") || "").replace(/^ref_/, "");
   } catch (_) {}
   if (!referralCode) { alert("রেফারেল লিংক পাওয়া যায়নি!"); return; }
-  const shareUrl = "https://bd01327115106-afk.github.io/VIRAL-VIDEO-HUB/share.html?ref=" + encodeURIComponent(referralCode);
+  const shareUrl = "https://viralvideohubbd.github.io/VIRAL-VIDEO-HUB/share.html?ref=" + encodeURIComponent(referralCode);
   const shareText = "আমার VIRAL VIDEO HUB রেফারেল লিংক দিয়ে Mini App-এ যোগ দিন 🔥";
   const telegramShareUrl = "https://t.me/share/url?url=" + encodeURIComponent(shareUrl) + "&text=" + encodeURIComponent(shareText);
   try {
@@ -1568,7 +1568,7 @@ async function showSharedVideoPage(videoId){
     if(!video){title.textContent="ভিডিওটি পাওয়া যায়নি";desc.textContent="ভিডিওটি সরানো হয়েছে অথবা লিংকটি মেয়াদোত্তীর্ণ।";btn.textContent="VIDEO NOT AVAILABLE";return;}
     title.textContent=video.title||"Viral Video Hub";
     desc.textContent=String(video.description||[video.category||"ভিডিও",video.duration||""].filter(Boolean).join(" • ")||"ভিডিওটি দেখতে নিচের বাটনে চাপ দিন。");
-    const fallbackThumb="https://bd01327115106-afk.github.io/VIRAL-VIDEO-HUB/Viral%20Link%20Reaction%20Thumbnail.png";
+    const fallbackThumb="https://viralvideohubbd.github.io/VIRAL-VIDEO-HUB/Viral%20Link%20Reaction%20Thumbnail.png";
     img.src=video.thumbnail_url||video.thumbnail||fallbackThumb;
     img.alt=(video.title||"VIRAL VIDEO HUB")+" thumbnail";
     img.onerror=()=>{img.onerror=null;img.src=fallbackThumb;};
@@ -1592,7 +1592,7 @@ async function showSharedVideoPage(videoId){
         </button>
       `
       const sharedShareBtn=document.getElementById("shareBtn_"+id);
-      if(sharedShareBtn) sharedShareBtn.addEventListener("click",()=>shareVideo(Number(id),video.title||"VIRAL VIDEO LINK"));
+      if(sharedShareBtn) sharedShareBtn.addEventListener("click",()=>shareVideo(Number(id),video.title||"VIRAL VIDEO HUB"));
     }
     btn.disabled=false;
     btn.textContent="WATCH / DOWNLOAD NOW";
@@ -1696,7 +1696,7 @@ async function openVideo(videoId){
   details.innerHTML = `
     <div class="details-topbar">
       <button type="button" onclick="document.getElementById('videoDetails').remove()" aria-label="ফিরে যান">‹</button>
-      <b id="videoDetailsBrand">VIRAL VIDEO LINK</b>
+      <b id="videoDetailsBrand">VIRAL VIDEO HUB</b>
       <button type="button" class="details-share-top" aria-label="Share video"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3" fill="currentColor" stroke="none"/><circle cx="6" cy="12" r="3" fill="currentColor" stroke="none"/><circle cx="18" cy="19" r="3" fill="currentColor" stroke="none"/><path d="M8.7 10.7 15.3 6.3M8.7 13.3l6.6 4.4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
     </div>
    <div class="details-content">
@@ -1756,16 +1756,16 @@ async function openVideo(videoId){
   const savedBrand = String(
     window.VVH_PUBLIC_SETTINGS?.site?.title ||
     window.VVH_PUBLIC_SETTINGS?.homepage?.title ||
-    'VIRAL VIDEO LINK'
+    'VIRAL VIDEO HUB'
   ).trim().slice(0, 100);
   const detailsBrand = details.querySelector('#videoDetailsBrand');
-  if (detailsBrand) detailsBrand.textContent = savedBrand || 'VIRAL VIDEO LINK';
+  if (detailsBrand) detailsBrand.textContent = savedBrand || 'VIRAL VIDEO HUB';
   document.body.appendChild(details);
   vvhRenderConfiguredLinks(window.VVH_PUBLIC_SETTINGS?.links||{});
   const shareTopBtn = details.querySelector('.details-share-top');
   const shareBtn = details.querySelector('#shareBtn_' + video.id);
-  if (shareTopBtn) shareTopBtn.addEventListener('click', () => shareVideo(video.id, video.title || 'VIRAL VIDEO LINK'));
-  if (shareBtn) shareBtn.addEventListener('click', () => shareVideo(video.id, video.title || 'VIRAL VIDEO LINK'));
+  if (shareTopBtn) shareTopBtn.addEventListener('click', () => shareVideo(video.id, video.title || 'VIRAL VIDEO HUB'));
+  if (shareBtn) shareBtn.addEventListener('click', () => shareVideo(video.id, video.title || 'VIRAL VIDEO HUB'));
   registerVideoView(videoId);
   refreshEngagementState(videoId);
   if(unlocked) startUnlockCountdown(video.id, expiresAt);
@@ -1853,8 +1853,8 @@ supabaseClient.rpc("register_video_view", { p_video_id: Number(videoId) })
 }
 
 async function shareVideo(videoId,title){
-  const shareUrl = "https://bd01327115106-afk.github.io/VIRAL-VIDEO-HUB/share.html?video=" + encodeURIComponent(String(videoId));
-  const shareText = "এই ভিডিওটি দেখুন 🔥 " + (title || "VIRAL VIDEO LINK");
+  const shareUrl = "https://viralvideohubbd.github.io/VIRAL-VIDEO-HUB/share.html?video=" + encodeURIComponent(String(videoId));
+  const shareText = "এই ভিডিওটি দেখুন 🔥 " + (title || "VIRAL VIDEO HUB");
   const telegramShareUrl = "https://t.me/share/url?url=" + encodeURIComponent(shareUrl) + "&text=" + encodeURIComponent(shareText);
   let shared = false;
   try{
@@ -1862,7 +1862,7 @@ async function shareVideo(videoId,title){
       window.Telegram.WebApp.openTelegramLink(telegramShareUrl);
       shared = true;
     } else if(navigator.share){
-      await navigator.share({title:title||"VIRAL VIDEO LINK",text:shareText,url:shareUrl});
+      await navigator.share({title:title||"VIRAL VIDEO HUB",text:shareText,url:shareUrl});
       shared = true;
     } else {
       await navigator.clipboard.writeText(shareUrl);
@@ -2519,7 +2519,7 @@ if (error || !data.session) {
 
     if (error || !data) return;
 
-    const referralUrl = "https://bd01327115106-afk.github.io/VIRAL-VIDEO-HUB/share.html?ref=" + encodeURIComponent(data.referral_code);
+    const referralUrl = "https://viralvideohubbd.github.io/VIRAL-VIDEO-HUB/share.html?ref=" + encodeURIComponent(data.referral_code);
 
     const pr=document.getElementById("profileReferralCode");
     if(pr) pr.innerText=data.referral_code || "Not available";
@@ -2631,7 +2631,7 @@ async function loadVideos(category = "All", button = null) {
     </div>
   </div>
 `;
-card.querySelector(".card-share").addEventListener("click", event => { event.stopPropagation(); shareVideo(video.id, video.title || "VIRAL VIDEO LINK"); });
+card.querySelector(".card-share").addEventListener("click", event => { event.stopPropagation(); shareVideo(video.id, video.title || "VIRAL VIDEO HUB"); });
 videosDiv.appendChild(card);
 
     });

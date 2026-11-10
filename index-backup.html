@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VIRAL VIDEO LINK</title>
+<title>VIRAL VIDEO HUB</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -305,7 +305,7 @@ body.intro-lock{overflow:hidden}
 
 
 <div class="app">
-<div class="topbar"><button onclick="openMenu()">‹</button><span>VIRAL VIDEO LINK</span><button>⋯</button></div>
+<div class="topbar"><button onclick="openMenu()">‹</button><span>VIRAL VIDEO HUB</span><button>⋯</button></div>
 <header class="mainhead">
   <button class="icon" onclick="openMenu()">☰</button>
   <div class="brand"><span class="v">VIRAL </span><span class="p">VIDEO LINK</span></div>
@@ -346,7 +346,7 @@ body.intro-lock{overflow:hidden}
 </div>
 
 </div></main>
-<div class="footer">🔥 VIRAL VIDEO LINK<br>নতুন ভিডিও নিয়মিত যুক্ত হবে...</div>
+<div class="footer">🔥 VIRAL VIDEO HUB<br>নতুন ভিডিও নিয়মিত যুক্ত হবে...</div>
 <nav class="bottom"><button id="homeTab" class="active" onclick="showHome()">🏠<br><span>হোম</span></button><button id="profileTab" onclick="showProfile()">👤<br><span>প্রোফাইল</span></button></nav>
 </div>
 
@@ -413,7 +413,7 @@ function closeAuth(e){if(!e || e.target.id==="authModal")document.getElementById
 async function loginWithGoogle(){
   const msg=document.getElementById("authMessage");
   if(msg) msg.textContent="⏳ Google Login হচ্ছে...";
-  const redirectTo = "https://bd01327115106-afk.github.io/VIRAL-VIDEO-HUB/";
+  const redirectTo = "https://viralvideohubbd.github.io/VIRAL-VIDEO-HUB/";
   try{
     const {error}=await supabaseClient.auth.signInWithOAuth({
       provider:"google",
@@ -447,7 +447,7 @@ async function shareReferral() {
   try {
     if (navigator.share) {
       await navigator.share({
-        title: "VIRAL VIDEO LINK",
+        title: "VIRAL VIDEO HUB",
         text: "আমার রেফারেল লিংক দিয়ে Viral Video Hub-এ যোগ দিন:",
         url: url
       });
@@ -661,8 +661,8 @@ async function openVideo(videoId){
   document.body.appendChild(details);
   const shareTopBtn = details.querySelector('.details-share-top');
   const shareBtn = details.querySelector('#shareBtn_' + video.id);
-  if (shareTopBtn) shareTopBtn.addEventListener('click', () => shareVideo(video.id, video.title || 'VIRAL VIDEO LINK'));
-  if (shareBtn) shareBtn.addEventListener('click', () => shareVideo(video.id, video.title || 'VIRAL VIDEO LINK'));
+  if (shareTopBtn) shareTopBtn.addEventListener('click', () => shareVideo(video.id, video.title || 'VIRAL VIDEO HUB'));
+  if (shareBtn) shareBtn.addEventListener('click', () => shareVideo(video.id, video.title || 'VIRAL VIDEO HUB'));
   registerVideoView(videoId);
   refreshEngagementState(videoId);
   if(unlocked) startUnlockCountdown(video.id, expiresAt);
@@ -766,7 +766,7 @@ async function shareVideo(videoId,title){
 
     if(isMobile && typeof navigator.share === "function") {
       await navigator.share({
-        title: title || "VIRAL VIDEO LINK",
+        title: title || "VIRAL VIDEO HUB",
         text: "এই ভিডিওটি দেখুন 🔥",
         url: shareUrl
       });

@@ -1,7 +1,7 @@
-# Viral Video Link — Screenshot-style Telegram Mini App
+# Viral Video Hub — Screenshot-style Telegram Mini App
 
 এটি আপনার দেওয়া screenshot-এর layout অনুসরণ করে বানানো একটি Telegram Mini App UI:
-- VIRAL VIDEO LINK header
+- VIRAL VIDEO HUB header
 - menu/search
 - সব ভিডিও/ট্রেন্ডিং buttons
 - category chips
